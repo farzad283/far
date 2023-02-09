@@ -28,3 +28,14 @@ main{
     height: 90vh;
     margin: 0;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    background-color: brown;
+    color: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
