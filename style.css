@@ -23,6 +23,8 @@ footer{
     height: 20px;   
 }
 main{
+    display: flex;
+    flex-direction: column;
     height: 90vh;
     margin: 0;
 }
