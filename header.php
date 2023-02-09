@@ -9,6 +9,7 @@
 </head>
 <header>
     <img src="http://localhost:8888/31w/wp-content/uploads/2023/02/index.png" alt="">
+    <h1>Habibzadeh Weblog</h1>
 </header>
 <body>
 

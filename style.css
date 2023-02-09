@@ -17,6 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
     background-color:rgb(247, 239, 28);
     text-align: center;
+    margin: 0;
  }
 footer{
     background-color: red;
@@ -38,4 +39,16 @@ ul{
     color: azure;
     padding: 20px;
     border-radius: 10px;
+}
+img{
+    width: 90px;
+    border-radius: 10px;
+}
+header{
+    background-color: white;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    border-bottom: 5px solid black;
 }
