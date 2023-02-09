@@ -7,6 +7,9 @@
     <title>Document</title>
     <?php wp_head();?>
 </head>
+<header>
+    <img src="http://localhost:8888/31w/wp-content/uploads/2023/02/index.png" alt="">
+</header>
 <body>
 
 
