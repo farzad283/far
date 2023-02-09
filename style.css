@@ -49,7 +49,7 @@ header{
     color: brown;
     display: flex;
     flex-direction: row;
-    gap: 500px;
+    gap: 150px;
     border-bottom: 5px solid black;
 }
 nav{
