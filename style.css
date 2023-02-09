@@ -18,3 +18,7 @@ body {
     background-color:rgb(247, 239, 28);
     text-align: center;
  }
+footer{
+    background-color: red;
+    height: 20px;   
+}
