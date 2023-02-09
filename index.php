@@ -5,6 +5,11 @@
 ?>
 
 <?php get_header()?>
+<nav>
+<a href="#">Java</a>
+<a href="#">PHP</a>
+<a href="#">Wordpress</a>
+</nav>
 <main>
     <h3>index.php</h3>
 <?php 
@@ -14,6 +19,7 @@ if (have_posts()):
     endwhile;
 endif;
 ?>
+
 <section>
     <ul>
         <li>Java Script</li>
