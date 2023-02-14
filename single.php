@@ -4,6 +4,7 @@
     Modèle index.php représente le modèle par défaut du thème
 */
 get_header() ?>
+
 <main>
     <h3>index.php</h3>
 <?php 

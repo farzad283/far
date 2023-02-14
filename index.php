@@ -27,25 +27,5 @@ if (have_posts()):
 endif;
 ?>
 
-<section>
-    <ul>
-        <li>Java Script</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>PHP</li>
-    </ul>
-    <table border="1">
-        <tr>
-        <th>Course 1</th>
-        <th>Course 2</th>
-        <th>Course 3</th>
-        </tr>
-        <tr>
-        <td>25 h</td>
-        <td>38h</td>
-        <td>60 h</td>
-        </tr>
-    </table>
-</section>
 </main>
 <?php get_footer(); ?>
