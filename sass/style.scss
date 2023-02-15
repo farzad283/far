@@ -17,6 +17,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* ------------------- Normalize*/
 @import "normalize/normalize";
+@import "normalize/boxsizing";
+
+/* ------------------- Composant*/
+@import "composant/entete";
 
 /* ------------------- Base*/
 @import "base/heading";
