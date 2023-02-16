@@ -8,20 +8,15 @@
     <?php wp_head();?>
 </head>
 <body>
-    <header>
-        <?php the_custom_logo(); ?>
-        
-        
-    <div>
-        <img src="http://localhost:8888/31w/wp-content/uploads/2023/02/index.png" alt="">
-            <h1>M-Habibzadeh</h1>
-        </div>
-        <?php wp_nav_menu(array(
-            'menu' => 'entete',
-            'container' => 'nav'
-        )); ?>
-        <h1><?php  //bloginfo('name'); ?></h1>
-        <h2><?php  //bloginfo('url'); ?></h2>
+    <header class="site__entete">
+        <section class="Logomenu">
+            <?php the_custom_logo(); ?>
+
+            <?php wp_nav_menu(array(
+                'menu' => 'entete',
+                'container' => 'nav'
+            )); ?>
+        </section>
         <h1><a href="<?php  bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1> 
         <h2><?php  bloginfo('description'); ?></h2>
     </header>

@@ -1,4 +1,19 @@
+.site__entete{
+
+}
+
+
+.Logomenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
 .menu-entete-container {
+    flex: 1;
 
 
 
@@ -7,7 +22,6 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    background-color:black;
     padding: 20px;
     margin-left: auto;
 
@@ -18,7 +32,7 @@
     a{
         text-decoration: none;
         padding: 3px 5px;
-        color: white;
+        color: black;
     }
 a:hover{
     color: #0f0;

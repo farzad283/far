@@ -27,11 +27,19 @@ html {
 }
 
 /* ------------------- Composant*/
+.Logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  flex: 1;
+}
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  background-color: black;
   padding: 20px;
   margin-left: auto;
 }
@@ -42,11 +50,13 @@ html {
 .menu-entete-container .menu .menu-item a {
   text-decoration: none;
   padding: 3px 5px;
-  color: white;
+  color: black;
 }
 .menu-entete-container .menu .menu-item a:hover {
   color: #0f0;
-} /* ------------------- Base*/
+}
+
+/* ------------------- Base*/
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
 }
@@ -93,19 +103,4 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-header div{
-  display: flex;
-  gap: 350px;
-}
-img{
-  width: 150px;
-}
-main{
-  text-align: center;
-}
-footer{
-  text-align: center;
-  background-color: brown;
-  color: white;
 }
